@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Signal.Note.Item">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_note"
+        style="@style/Signal.Note.Card">
+
+        <LinearLayout
+            style="@style/Signal.Note.Layout">
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/Signal.Note.Title"/>
+
+            <TextView
+                android:id="@+id/tv_subtitle"
+                style="@style/Signal.Note.Subtitle"/>
+
+            <TextView
+                android:id="@+id/tv_time"
+                style="@style/Signal.Note.Time"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</FrameLayout>

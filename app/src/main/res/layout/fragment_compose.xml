@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".compose.ComposeFragment">
+
+    <!-- List -->
+
+    <com.haiyunshan.signal.compose.widget.ComposeRecyclerView
+        android:id="@+id/recycler_list_view"
+        style="@style/Signal.Compose.List">
+
+    </com.haiyunshan.signal.compose.widget.ComposeRecyclerView>
+
+    <!-- Toolbar -->
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/Signal.Compose.Toolbar">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>

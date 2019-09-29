@@ -1,0 +1,75 @@
+<resources>
+
+    <string name="app_name">信号</string>
+
+    <string name="btn_acknowledge">致谢</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_setting">设置</string>
+    <string name="btn_continue">继续</string>
+    <string name="btn_chapter">目录</string>
+    <string name="btn_highlight">重点</string>
+    <string name="btn_picture">图片</string>
+    <string name="btn_camera">拍照</string>
+    <string name="btn_export">导出</string>
+    <string name="btn_ftp">查看</string>
+    <string name="btn_edit">编辑</string>
+    <string name="btn_line">行数</string>
+
+    <string name="title_chapter">目录</string>
+    <string name="title_viewer">阅读器</string>
+    <string name="title_coder">Coder</string>
+
+    <string name="note_title">空白记录</string>
+    <string name="note_subtitle">（无内容）</string>
+
+    <string name="acknowledge_title">致谢</string>
+    <string name="acknowledge_title_apps">优质应用</string>
+    <string name="acknowledge_title_opensource">开源软件许可证</string>
+
+    <string name="font_book">字体册</string>
+    <string name="font_invalid">无效字体</string>
+    <string name="font_not_support">不支持的字体</string>
+    <string name="font_invalid_file">无效字体文件</string>
+    <string name="font_not_support_file">不支持的字体文件</string>
+    <string name="font_scan_msg_1">允许“读写手机存储”以检索手机中的字体文件。</string>
+    <string name="font_scan_msg_2">设置“权限管理-读写手机存储”为允许，以检索手机中的字体。</string>
+
+    <string name="font_preview_msg_1">允许“读写手机存储”以查看字体文件。</string>
+    <string name="font_preview_msg_2">设置“权限管理-读写手机存储”为允许，以查看字体文件。</string>
+
+    <string name="font_action_cannot_install">无法添加</string>
+    <string name="font_action_installing">安装中...</string>
+    <string name="font_action_installed">已添加</string>
+    <string name="font_action_none">添加</string>
+    <string name="font_num_fmt">"共 %1$d 项</string>
+
+    <string name="chapter_begin"><i>文章的开始</i></string>
+    <string name="chapter_name_fmt">第 %1$d 段</string>
+    <string name="chapter_current_fmt_1">第 %1$d 段，共 %2$d 段</string>
+    <string name="chapter_current_fmt_2">第 %1$d 章，共 %2$d 章</string>
+
+    <string name="chapter_read_msg_1">允许“读写手机存储”以阅读文件内容。</string>
+    <string name="chapter_read_msg_2">设置“权限管理-读写手机存储”为允许，以阅读文件内容。</string>
+
+    <string name="export_folder">信号Signal</string>
+    <string name="export_document">文档Document</string>
+    <string name="export_title">未命名</string>
+    <string name="export_title_fmt">%1$s %2$d</string>
+    <string name="export_msg_prefix">导出到:&#160;</string>
+
+    <string name="path_phone">手机存储</string>
+    <string name="path_sdcard">SD 卡</string>
+
+    <string name="ftp_connecting">启动中...</string>
+    <string name="ftp_started">运行中...</string>
+
+    <string name="import_action_msg">正在导入...</string>
+    <string name="import_result">导入完成。</string>
+    <string name="import_confirm_msg">该项目已经存在。您要使用新的项目替换它码？</string>
+    <string name="import_btn_yes">替换</string>
+    <string name="import_btn_no">取消</string>
+    <string name="import_btn_keep">保留两者</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
